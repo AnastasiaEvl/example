@@ -1,0 +1,29 @@
+.section-header{
+    position: relative;
+    z-index: 2;
+}
+.section-header__title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.section-header__title-center{
+    text-align: center;
+    padding-left: 20rem;
+}
+
+.section-header--banner{
+    width: 42rem;
+    color: var(--text-color);
+    text-align: left;
+}
+
+.section-header__btn-block{
+    display: flex;
+    gap:5rem
+}
+.section-header__description {
+    font-size: 1rem;
+    color: black;
+    padding: 2rem 2rem 1rem 0;
+}

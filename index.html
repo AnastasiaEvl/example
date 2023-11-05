@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta property="og:url" content="https://anastasiaevl.github.io/example/"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Панели из сотового картона"/>
+    <meta property="og:description" content="Сотовый картон – прочный материал, который востребован в промышленной
+                деятельности для производства коробок и ящиков, поддонов, ложементов,
+                фиксации, транспортировки и хранения продукции. "/>
+    <meta property="og:image"
+          content="https://i.postimg.cc/Qd0FQDJp/xcarboard-friends-6-jpg-pagespeed-ic-m-Covi-urz0-Edit-1.jpg"/>
+    <meta property="vk:image"
+          content="https://i.postimg.cc/Qd0FQDJp/xcarboard-friends-6-jpg-pagespeed-ic-m-Covi-urz0-Edit-1.jpg"/>
+    <meta name="twitter:image"
+          content="https://i.postimg.cc/Qd0FQDJp/xcarboard-friends-6-jpg-pagespeed-ic-m-Covi-urz0-Edit-1.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:type" content="website"/>
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/shared/section-header.css">
+    <link rel="stylesheet" href="src/styles/shared/button.css">
+    <link rel="stylesheet" href="src/styles/banner.css">
+    <link rel="stylesheet" href="src/styles/contact.css">
+    <link rel="stylesheet" href="src/styles/shared/form.css">
+    <link rel="stylesheet" href="src/styles/photos.css">
+    <link rel="shortcut icon" href="src/assets/icons/logo.png"/>
+    <title>Панели из сотового картона</title>
+</head>
+<body>
+<main>
+    <header class="header">
+        <a href="http://example.com" class="header__logo-link"
+        ><img class="header__logo" src="src/assets/icons/logo.png" alt="carton-icon"
+        /></a>
+        <nav class="header-nav">
+            <ul class="header-nav__menu">
+                <li class="header-nav__list"><a href="#banner" class="header-nav__section">о нас</a></li>
+                <li class="header-nav__list">
+                    <a href="#banner" class="header-nav__section">цены</a>
+                </li>
+                <li class="header-nav__list">
+                    <a href="#contacts" class="header-nav__section">отзывы</a>
+                </li>
+                <li class="header-nav__list">
+                    <a href="#contacts" class="header-nav__section">контакты</a>
+                </li>
+                <li class="header-nav__list">
+                    <a href="#photos" class="header-nav__section">фото</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-contact">
+            <div class="header-contact__messengers">
+                <a href="viber://chat?number=%2B3751712345667" class="header-contact__link">
+                    <img
+                            class="header-contact__icon"
+                            src="src/assets/icons/viber.png"
+                            alt="contact through viber"
+                    ></a>
+                <a href="https://wa.me/3751712345667" class="header-contact__link">
+                    <img class="header-contact__icon"
+                         src="src/assets/icons/whatsapp.png"
+                         alt="contact through whatsapp"></a>
+            </div>
+            <a href="mailto: support@example.com " class="header-contact__link">
+                <span class="header-contact__mail-address">support@example.com</span> </a>
+        </div>
+    </header>
+    <section class="banner" id="banner">
+        <div class="section-header section-header--banner">
+            <img
+                    class="header__logo header__logo--huge"
+                    src="src/assets/icons/logo.png"
+                    alt="carton-icon"
+            />
+            <h1 class="section-header__title">
+                Панели из сотового картона
+            </h1>
+            <p
+                    class="section-header__description"
+            >
+                Сотовый картон – прочный материал, который востребован в промышленной
+                деятельности для производства коробок и ящиков, поддонов, ложементов,
+                фиксации, транспортировки и хранения продукции. Материал используют как
+                тамбурат в мебельном производстве и в качестве заполнителя межкомнатных
+                дверей. Низкая стоимость, малый вес и высокая прочность сотового картона
+                позволяют сократить расходы и уменьшить вес готовых изделий при большем объеме.
+            </p>
+            <p
+                    class="section-header__price"
+
+            >
+                Минимальный объем заказа: 300 шт.:
+                3,00 $ - 10,00 $ за ед.
+            </p>
+            <div class="section-header__btn-block">
+                <button type="button" class="button button--green"
+                        onclick="location.href='src/pages/authorialRituals.html';">
+                    оставить заявку
+                </button>
+                <button type="button" class="button button--green"
+                        onclick="location.href='src/pages/authorialRituals.html';">
+                    подробнее
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contacts">
+        <div class="contact__form-box">
+            <form
+                    class="form"
+                    action=""
+                    name="contact-form"
+                    id="contact-form"
+            >
+                <fieldset class="form__section">
+                    <legend class="form__title">
+                        <h2 class="form__title-name">форма обратной связи</h2>
+                    </legend>
+                    <label for="contact-name" class="form__label">имя</label>
+                    <input
+                            id="contact-name"
+                            class="form__input"
+                            type="text"
+                            name="contact-name"
+                            placeholder="имя"
+                            autocomplete="username"
+                            autofocus
+                            required
+                    />
+                    <label for="contact-email" class="form__label">email</label>
+                    <input
+                            id="contact-email"
+                            class="form__input"
+                            type="email"
+                            name="contact-email"
+                            placeholder="email"
+                            autocomplete="email"
+                            required
+                    />
+
+                    <div class="form__checkbox">
+                        <input id="form__checkbox-policy" type="checkbox" required/>
+                        <label for="form__checkbox-policy">Я принимаю <a href="#">Политику
+                            конфиденциальности</a></label>
+                    </div>
+                </fieldset>
+                <button type="submit" class="button" form="contact-form">
+                    отправить
+                </button>
+            </form>
+        </div>
+    </section>
+    <section class="photos" id="photos">
+        <div class="section-header">
+            <h2 class="section-header__title section-header__title-center">
+                фото продукции
+            </h2>
+        </div>
+        <div class="photos__content">
+            <img src="src/assets/pictures/carton-one.png" alt="carton-image" class="photos__img">
+            <img src="src/assets/pictures/carton-two.png" alt="carton-image" class="photos__img">
+            <img src="src/assets/pictures/carton-three.png" alt="carton-image" class="photos__img">
+            <img src="src/assets/pictures/carton-four.png" alt="carton-image" class="photos__img">
+            <img src="src/assets/pictures/carton-five.png" alt="carton-image" class="photos__img">
+        </div>
+    </section>
+</main>
+</body>
+</html>

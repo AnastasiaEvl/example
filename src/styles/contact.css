@@ -1,0 +1,12 @@
+#contacts {
+    scroll-margin-top: 9rem;
+    padding-bottom: 3rem;
+}
+
+
+.contact__form-box {
+    padding-top: 1rem;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}

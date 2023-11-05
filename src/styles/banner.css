@@ -1,0 +1,22 @@
+.banner{
+    padding: 6rem 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    background-image: url(../assets/pictures/background-img.jpg);
+    min-height: 442px;
+    position: relative;
+    background-size: cover;
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.02);
+}
+
+
